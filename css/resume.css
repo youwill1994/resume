@@ -41,12 +41,9 @@ a:hover{
 	height: 100%;
 }
 .container-fluid{
-	
-   
     width:100%;
 }
 #homepage{
-	/*background:url(../imgs/149382594315.jpg);*/
 	background:#484848;
 }
 
@@ -74,6 +71,7 @@ a:hover{
 }
 .top .T-right>ul>li>a{
 	font-size:35px;
+	font-family:"楷体";
 
 }
 .top .T-right>ul>li>a:hover{
