@@ -196,6 +196,7 @@ a:hover{
 	font-size:27px;
 	position: relative;
 	left:50px;
+	color:#fff;
 }
 .one .two-left>h5{
 	font-size:19px;
@@ -233,7 +234,7 @@ a:hover{
 }
 .one .two-right>ol>li{
 	padding:14px 0px;
-	color:#000;
+	color:#fff;
 	font-size:17px;
 	margin-bottom:14px;
 	margin-top: 5px;
