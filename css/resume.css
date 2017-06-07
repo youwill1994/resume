@@ -380,19 +380,20 @@ a:hover{
 	margin-top:40px;
 }
 #item{
-	background: url(../imgs/bg-2.jpg) no-repeat;
+	/*background: url(../imgs/bg-2.jpg) no-repeat;*/
+	background:rgb(27, 35, 46);
 }
 
 /*个人经历*/
 #experience{
 	
-	background: url(../imgs/road.jpg) no-repeat 100% 100%;
-	/*background: url(../imgs/bg-1.jpg);*/
+	/*background: url(../imgs/road.jpg) no-repeat 100% 100%;*/
+	background:#e7e7e7;
 }
 #experience h1{
-	margin-top:50px;
+	margin-top:10%;
 	color: #000;
-	margin-left:45%;
+	margin-left:40%;
 }
 #experience .my-road{
  	position: relative;
@@ -401,76 +402,101 @@ a:hover{
 }
 #experience .my-road:before{
 	content:"";
-    width: 3px;
-    height: 100%;
-    background: #452d5f;
+    width:70%;
+    height:1%;
+    background: #1abc9c;
     position: absolute;
-    top: 0;
-    left: 50%;
+    top:16%;
+    left:150px;
 }
 #experience .my-road .timelines{
 	margin-bottom: 50px;
     position: relative;
-    height: 100px;
+  
+   
 }
-#experience .my-road .timelines .road-content{
-	width: 45%;
-    padding: 20px;
-    border-radius: 5px;
-    background: #000;
-    color: #fff;
-    opacity: .7;
-    -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-}
-#experience .my-road .timelines .road-content p{
-	font-size:16px;
-}
-#experience .my-road .timelines .road-content:before{
-	content: "";
-    border-left:10px solid #452d5f;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    position: absolute;
-    left: 45%;
-    top: 20px;
-}
-#experience .my-road .timelines .road-content .Rc-title{
-	font-size: 30px;
-    font-weight: 300;
-    color: #fff;
-    padding: 10px;
-    background: #452d5f;
-    border-radius: 3px 3px 0 0;
-    margin: -20px -20px 10px;
-}
-#experience .my-road .timelines .times{
+.times{
 	width: 50px;
     height: 50px;
     line-height: 50px;
     border-radius: 50%;
-    background: #452d5f;
+    background: #1abc9c;
     overflow: hidden;
     margin-left: -23px;
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: 58px;
+    left: 14%;
     color: #fff;
     font-size:18px;
     text-align:center;
 }
-#experience .my-road .timelines .road-content.right{
-	float: right;
+.times1{
+	width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #1abc9c;
+    overflow: hidden;
+    margin-left: -23px;
+    position: absolute;
+    top: 58px;
+    left: 38%;
+    color: #fff;
+    font-size:18px;
+    text-align:center;
+}
+.times2{
+	width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #1abc9c;
+    overflow: hidden;
+    margin-left: -23px;
+    position: absolute;
+    top: 58px;
+    left: 59%;
+    color: #fff;
+    font-size:18px;
+    text-align:center;
+}
+.times3{
+	width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #1abc9c;
+    overflow: hidden;
+    margin-left: -23px;
+    position: absolute;
+    top: 58px;
+    left: 82%;
+    color: #fff;
+    font-size:18px;
+    text-align:center;
+}
+.my-road p{
+	font-size: 18px;
+}
+.school{
+	position: absolute;
+	top: 22%;
+	left:14%;
+}
+.schools{
+	position: absolute;
+	top: 22%;
+	left:58%;
 }
 #experience .my-road .timelines .road-content.right:before{
 	content: "";
     right: 45%;
     left: inherit;
     border-left: 0;
-    border-right: 10px solid #452d5f;
+   border-right: 10px solid #1abc9c;
+    /*border-right: 10px solid #452d5f;*/
 }
+    
     
 /*俄罗斯方块游戏*/
 a {
@@ -628,6 +654,7 @@ a {
 }
 .play_menu p{
 	font-size:20px;
+	color:#fff;
 }
 #play_score{
 	color: yellow;
